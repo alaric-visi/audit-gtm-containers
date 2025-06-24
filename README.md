@@ -9,6 +9,8 @@ Full guide for use: https://mikehiggins.me.uk/posts/gtm-audit-google-sheet
 - Variables → Variables_<container-publicId> sheet (name, type)
 - Great for quick audits or creating a lightweight backup of your GTM configuration.
 
+![gtm-sheet-exporter](https://github.com/user-attachments/assets/36ba7e63-9a7c-4006-94e1-f2cac8dfa07f)
+
 ## How it works
 
 - Uses the OAuth2 for Apps Script library to request tagmanager.readonly scope.
