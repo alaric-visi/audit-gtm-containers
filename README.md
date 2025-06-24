@@ -3,11 +3,11 @@ Google Tag Manager → Google Sheets Exporter (Apps Script)
 
 Read-only Apps Script that authenticates via OAuth2, walks through all GTM accounts & containers you can access, and writes each container’s first workspace to the active spreadsheet:
 
-Tags → Tags_<container-publicId> sheet (name, type, firing & blocking trigger IDs)
+- Full guide for use: https://mikehiggins.me.uk/posts/gtm-audit-google-sheet
 
-Variables → Variables_<container-publicId> sheet (name, type)
-
-Great for quick audits or creating a lightweight backup of your GTM configuration.
+- Tags → Tags_<container-publicId> sheet (name, type, firing & blocking trigger IDs)
+- Variables → Variables_<container-publicId> sheet (name, type)
+- Great for quick audits or creating a lightweight backup of your GTM configuration.
 
 ## How it works
 
